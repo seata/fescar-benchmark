@@ -1,23 +1,21 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# maven ignore
+target/
 *.jar
 *.war
-*.nar
-*.ear
 *.zip
+*.tar
 *.tar.gz
-*.rar
+*.class
+.flattened-pom.xml
+dependency-reduced-pom.xml
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# system ignore
+.DS_Store
+Thumbs.db
+*.orig
